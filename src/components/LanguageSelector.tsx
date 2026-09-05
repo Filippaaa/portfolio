@@ -10,26 +10,26 @@ function LanguageSelector({
   setLanguage,
 }: LanguageSelectorProps) {
   return (
-    <div className="flex gap-2 text-sm">
+    <div className="flex gap-2 text-[14px]">
       <button
         className={language === 'en' ? 'underline' : ''}
         onClick={() => setLanguage('en')}
       >
-        EN
+        en
       </button>
 
       <button
         className={language === 'de' ? 'underline' : ''}
         onClick={() => setLanguage('de')}
       >
-        DE
+        de
       </button>
 
       <button
         className={language === 'sv' ? 'underline' : ''}
         onClick={() => setLanguage('sv')}
       >
-        SV
+        sv
       </button>
     </div>
   )

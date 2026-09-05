@@ -4,6 +4,7 @@ import portrait from './assets/portrait.jpg'
 import { useState } from 'react'
 import LanguageSelector from './components/LanguageSelector'
 import BuildInfo from './components/PlusInfo.tsx'
+import { SquareArrowOutUpRight } from 'lucide-react'
 
 function App() {
 
@@ -64,8 +65,8 @@ function App() {
 
       <section>
         <h4 className="font-medium">Projects</h4>
+        
         <div>
-
           <div className="grid grid-cols-[80px_200px_1fr_auto]">
             <span>2025</span>
             <span>fastily</span>
@@ -94,7 +95,6 @@ function App() {
             <Phosphor.Link size={14} />
           </div>
         </div>
-
       </section>
 
       <section>
@@ -110,7 +110,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Phosphor.Link size={14} />
+            <SquareArrowOutUpRight size={14} strokeWidth={1.5}/>
           </a>
         </div>
 
@@ -124,7 +124,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Phosphor.Link size={14} />
+            <SquareArrowOutUpRight size={14} strokeWidth={1.5}/>
           </a>
         </div>
 
@@ -138,7 +138,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Phosphor.Link size={14} />
+            <SquareArrowOutUpRight size={14} strokeWidth={1.5}/>
           </a>
         </div>
       </section>
@@ -156,7 +156,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Phosphor.Link size={14} />
+            <SquareArrowOutUpRight size={14} strokeWidth={1.5}/>
           </a>
         </div>
 
@@ -169,7 +169,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Phosphor.Link size={14} />
+            <SquareArrowOutUpRight size={14} strokeWidth={1.5}/>
           </a>
         </div>
 
@@ -182,7 +182,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Phosphor.Link size={14} />
+            <SquareArrowOutUpRight size={14} strokeWidth={1.5}/>
           </a>
         </div>
 
@@ -195,7 +195,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Phosphor.Link size={14} />
+            <SquareArrowOutUpRight size={14} strokeWidth={1.5}/>
           </a>
         </div>
       </section>

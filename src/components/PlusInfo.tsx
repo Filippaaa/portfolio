@@ -14,7 +14,7 @@ function BuildInfo({ open, setOpen }: BuildInfoProps) {
         }`}
       >
         <span className="text-[14px]">
-        Built with Figma · VS Code · React · TypeScript · Tailwind CSS · Vite · Inter · Phosphor · Git · GitHub
+        Built with React · TypeScript · Tailwind CSS · Vite · Figma · VS Code · Inter · Phosphor Icons · Git · GitHub
         </span>
       </div>
 

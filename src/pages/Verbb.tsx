@@ -14,7 +14,7 @@ function Verbb() {
                 <ArrowLeft size={18} strokeWidth={1.5} />
             </Link>
 
-            <h1 className="page-title">fastily</h1>
+            <h1 className="page-title">Verbb</h1>
 
             <section className="my-2">
                 <div className="flex gap-1">

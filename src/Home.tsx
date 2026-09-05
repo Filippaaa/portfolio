@@ -6,9 +6,7 @@ import BuildInfo from './components/PlusInfo.tsx'
 import { SquareArrowOutUpRight } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
-
 function Home() {
-
     const [darkMode, setDarkMode] = useState(false)
     const [language, setLanguage] = useState<'en' | 'de' | 'sv'>('en')
     const [buildInfoOpen, setBuildInfoOpen] = useState(false)
@@ -21,12 +19,13 @@ function Home() {
                     <h1 className="page-title">
                         Filippa Emelie Matilda Steiner
                     </h1>
-                    
+
                     <LanguageSelector
                         language={language}
                         setLanguage={setLanguage}
                     />
                 </div>
+
                 <p className="my-0">Zurich, Switzerland</p>
                 <p className="-mt-1">Last updated: September 5, 2026</p>
             </section>
@@ -48,31 +47,31 @@ function Home() {
             <section className="mt-4">
                 <p className="m-0 leading-tight text-black">
                     You can reach me via{' '}
-                    <a 
-                    href="mailto: filippa@filippasteiner.com"
-                    className="underline text-black"
+                    <a
+                        href="mailto:filippa@filippasteiner.com"
+                        className="underline text-black"
                     >
                         filippa@filippasteiner.com
                     </a>
 
                     <span className="text-black">, or elsewhere: </span>
-                    
-                    <a 
-                    href="https://www.linkedin.com/in/filippasteiner"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="underline text-black"
+
+                    <a
+                        href="https://www.linkedin.com/in/filippasteiner"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="underline text-black"
                     >
                         LinkedIn
                     </a>
 
                     <span>, </span>
 
-                    <a 
-                    href="https://github.com/Filippaaa.git"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="underline text-black"
+                    <a
+                        href="https://github.com/Filippaaa.git"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="underline text-black"
                     >
                         GitHub
                     </a>
@@ -90,8 +89,8 @@ function Home() {
                         className="grid grid-cols-[80px_200px_1fr_auto]"
                     >
                         <span>2025</span>
-                        <span className="text-black">fastily</span>
-                        <span className="text-black">iOS App</span>
+                        <span>fastily</span>
+                        <span>iOS App</span>
                         <SquareArrowOutUpRight size={14} strokeWidth={1.5} />
                     </Link>
 
@@ -100,26 +99,28 @@ function Home() {
                         className="grid grid-cols-[80px_200px_1fr_auto]"
                     >
                         <span>2025</span>
-                        <span className="text-black">exercly</span>
-                        <span className="text-black">Web App</span>
+                        <span>exercly</span>
+                        <span>Web App</span>
                         <SquareArrowOutUpRight size={14} strokeWidth={1.5} />
                     </Link>
 
                     <Link
                         to="/foodilicous"
-                        className="grid grid-cols-[80px_200px_1fr_auto]">
+                        className="grid grid-cols-[80px_200px_1fr_auto]"
+                    >
                         <span>2023</span>
-                        <span className="text-black">foodilicous</span>
-                        <span className="text-black">iOS App</span>
+                        <span>foodilicous</span>
+                        <span>iOS App</span>
                         <SquareArrowOutUpRight size={14} strokeWidth={1.5} />
                     </Link>
 
                     <Link
-                        to="/Verbb"
-                        className="grid grid-cols-[80px_200px_1fr_auto]">
+                        to="/verbb"
+                        className="grid grid-cols-[80px_200px_1fr_auto]"
+                    >
                         <span>2023</span>
-                        <span className="text-black">Verbb</span>
-                        <span className="text-black">iOS App</span>
+                        <span>Verbb</span>
+                        <span>iOS App</span>
                         <SquareArrowOutUpRight size={14} strokeWidth={1.5} />
                     </Link>
                 </div>
@@ -128,11 +129,10 @@ function Home() {
             <section className="mt-4 mb-2">
                 <h4 className="section-title">Student Associations</h4>
 
-
                 <div className="grid grid-cols-[80px_200px_1fr_auto]">
                     <span>2026</span>
-                    <span className="text-black">ETH Entrepreneur Club</span>
-                    <span className="text-black">Incoming Member</span>
+                    <span>ETH Entrepreneur Club</span>
+                    <span>Incoming Member</span>
                     <a
                         href="https://www.entrepreneur-club.org/"
                         target="_blank"
@@ -142,11 +142,10 @@ function Home() {
                     </a>
                 </div>
 
-
                 <div className="grid grid-cols-[80px_200px_1fr_auto]">
                     <span>2026</span>
-                    <span className="text-black">NSVZ</span>
-                    <span className="text-black">Founder</span>
+                    <span>NSVZ</span>
+                    <span>Founder</span>
                     <a
                         href="https://nsvz.ch/"
                         target="_blank"
@@ -156,11 +155,10 @@ function Home() {
                     </a>
                 </div>
 
-
                 <div className="grid grid-cols-[80px_200px_1fr_auto]">
                     <span>2026</span>
-                    <span className="text-black">ESN</span>
-                    <span className="text-black">Member of the Finance Committee</span>
+                    <span>ESN</span>
+                    <span>Member of the Finance Committee</span>
                     <a
                         href="https://zurich.esn.ch/w/team"
                         target="_blank"
@@ -171,14 +169,13 @@ function Home() {
                 </div>
             </section>
 
-
             <section className="mt-4 mb-2">
                 <h4 className="section-title">Education</h4>
 
                 <div className="grid grid-cols-[80px_200px_1fr_auto]">
                     <span>2027</span>
-                    <span className="text-black">LTH</span>
-                    <span className="text-black">Exchange Semester</span>
+                    <span>LTH</span>
+                    <span>Exchange Semester</span>
                     <a
                         href="https://www.lth.se/"
                         target="_blank"
@@ -190,8 +187,8 @@ function Home() {
 
                 <div className="grid grid-cols-[80px_200px_1fr_auto]">
                     <span>2024</span>
-                    <span className="text-black">ETH Zürich</span>
-                    <span className="text-black">BSc in Computer Science</span>
+                    <span>ETH Zürich</span>
+                    <span>BSc in Computer Science</span>
                     <a
                         href="https://ethz.ch/en.html"
                         target="_blank"
@@ -203,8 +200,8 @@ function Home() {
 
                 <div className="grid grid-cols-[80px_200px_1fr_auto]">
                     <span>2020</span>
-                    <span className="text-black">I.E.S Victoria Kent</span>
-                    <span className="text-black">Study Year Abroad</span>
+                    <span>I.E.S Victoria Kent</span>
+                    <span>Study Year Abroad</span>
                     <a
                         href="https://www.iesvictoriakentmarbella.es/"
                         target="_blank"
@@ -216,8 +213,8 @@ function Home() {
 
                 <div className="grid grid-cols-[80px_200px_1fr_auto]">
                     <span>2018</span>
-                    <span className="text-black">KSZ</span>
-                    <span className="text-black">Swiss Matura</span>
+                    <span>KSZ</span>
+                    <span>Swiss Matura</span>
                     <a
                         href="https://ksz.ch/de"
                         target="_blank"
@@ -228,18 +225,19 @@ function Home() {
                 </div>
             </section>
 
-            <img 
+            <img
                 className="portrait mt-4 mb-2"
-                src={portrait} 
-                alt="Filippa Steiner" 
+                src={portrait}
+                alt="Filippa Steiner"
             />
 
             <BuildInfo
                 open={buildInfoOpen}
                 setOpen={setBuildInfoOpen}
             />
+
         </main>
     )
 }
 
-export default Home;
+export default Home

@@ -1,10 +1,24 @@
 import './App.css'
 import * as Phosphor from '@phosphor-icons/react'
 import portrait from './assets/portrait.jpg'
+import { useState } from 'react'
 
 function App() {
+
+  const[darkMode, setDarkMode] = useState(false)
+
   return (
-    <main>
+    <main className={darkMode ? 'dark' : ''}>
+
+      <label className="theme-toggle">
+        <input
+          type="checkbox"
+          checked={darkMode}
+          onChange={() => setDarkMode(!darkMode)}
+        />
+        <span className="slider"></span>
+      </label>
+
       <section className="hero">
         <h1>Filippa Emelie Matilda Steiner</h1>
         <p>Last updated: September 5, 2026</p>
@@ -31,19 +45,19 @@ function App() {
 
           <span>2025</span>
           <span>fastily</span>
-          <Phosphor.Link size={24} />
+          <Phosphor.Link size={14} />
 
           <span>2025</span>
           <span>exercly</span>
-          <Phosphor.Link size={24} />
+          <Phosphor.Link size={14} />
 
           <span>2023</span>
           <span>foodilicous</span>
-          <Phosphor.Link size={24} />
+          <Phosphor.Link size={14} />
 
           <span>2023</span>
           <span>Verbb</span>
-          <Phosphor.Link size={24} />
+          <Phosphor.Link size={14} />
         </div>
 
       </section>

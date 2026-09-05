@@ -78,48 +78,15 @@ span {
   display: block;
 }
 
-.projects-row {
-  display: grid;
-  grid-template-columns: 80px 1fr auto;
-}
-
-.projects-row span:last-child {
-  justify-self: end;
+.section-title{
+  color: black;
+  font-weight: 600;
+  font-size: 14px;
 }
 
 
 .underline {
   text-decoration: underline;
-}
-
-.education {}
-
-h1 {
-  color: black;
-  font-size: 14px;
-  font-weight: 700;
-  margin: 0;
-}
-
-h4 {
-  color: black;
-  font-size: 14px;
-  margin: 0;
-  padding-top: 20px;
-}
-
-.education-row {
-  display: grid;
-  grid-template-columns: 200px 1fr auto;
-}
-
-.student-associations-row {
-  display: grid;
-  grid-template-columns: 80px 1fr auto;
-}
-
-.student-associations-row span:last-child {
-  justify-self: end;
 }
 
 #center {

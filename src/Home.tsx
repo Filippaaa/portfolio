@@ -18,7 +18,7 @@ function Home() {
 
             <section>
                 <div className="flex w-full items-center justify-between">
-                    <h1>Filippa Emelie Matilda Steiner</h1>
+                    <h1 className="text-black font-bold">Filippa Emelie Matilda Steiner</h1>
                     <LanguageSelector
                         language={language}
                         setLanguage={setLanguage}
@@ -78,8 +78,8 @@ function Home() {
                 </p>
             </section>
 
-            <section>
-                <h4 className="font-semibold">Projects</h4>
+            <section className="mt-4 mb-2">
+                <h4 className="section-title">Projects</h4>
 
                 <div>
                     <Link
@@ -122,8 +122,8 @@ function Home() {
                 </div>
             </section>
 
-            <section>
-                <h4 className="font-semibold">Student Associations</h4>
+            <section className="mt-4 mb-2">
+                <h4 className="section-title">Student Associations</h4>
 
 
                 <div className="grid grid-cols-[80px_200px_1fr_auto]">
@@ -169,10 +169,8 @@ function Home() {
             </section>
 
 
-            <section>
-                <h4 className="font-semibold">Education</h4>
-
-
+            <section className="mt-4 mb-2">
+                <h4 className="section-title">Education</h4>
 
                 <div className="grid grid-cols-[80px_200px_1fr_auto]">
                     <span>2027</span>
@@ -227,7 +225,11 @@ function Home() {
                 </div>
             </section>
 
-            <img className="portrait mt-6" src={portrait} alt="Filippa Steiner" />
+            <img 
+                className="portrait mt-4 mb-2"
+                src={portrait} 
+                alt="Filippa Steiner" 
+            />
 
             <BuildInfo
                 open={buildInfoOpen}

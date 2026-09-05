@@ -12,7 +12,7 @@ function App() {
   const [buildInfoOpen, setBuildInfoOpen] = useState(false)
 
   return (
-   <main className={`${darkMode ? 'dark' : ''} mt-[100px] mb-5`}>
+    <main className={`${darkMode ? 'dark' : ''} mt-[100px] mb-5`}>
 
       <label className="theme-toggle">
         <input
@@ -63,7 +63,7 @@ function App() {
 
 
       <section>
-        <h4>Projects</h4>
+        <h4 className="font-medium">Projects</h4>
         <div className="projects-row">
 
           <span>2025</span>
@@ -86,52 +86,65 @@ function App() {
       </section>
 
       <section>
-        <h4>Student Associations</h4>
+        <h4 className="font-medium">Student Associations</h4>
 
 
-        <div className="student-associations-row">
+        <div className="grid grid-cols-[80px_200px_1fr_auto]">
           <span>2026</span>
           <span>ETH Entrepreneur Club</span>
           <span>Incoming Member</span>
-
-
-          <span>2026</span>
-          <span>NSVZ</span>
-          <span>Founder</span>
-
-
-          <span>2026</span>
-          <span>ESN</span>
-          <span>Member of the Finance Committee</span>
-
+          <a href="https://www.entrepreneur-club.org/">
+            <Phosphor.Link size={14} />
+          </a>
         </div>
 
 
+        <div className="grid grid-cols-[80px_200px_1fr_auto]">
+          <span>2026</span>
+          <span>NSVZ</span>
+          <span>Founder</span>
+          <a href="https://nsvz.ch/">
+            <Phosphor.Link size={14} />
+          </a>
+        </div>
+
+
+        <div className="grid grid-cols-[80px_200px_1fr_auto]">
+          <span>2026</span>
+          <span>ESN</span>
+          <span>Member of the Finance Committee</span>
+          <a href="https://zurich.esn.ch/w/team">
+            <Phosphor.Link size={14} />
+          </a>
+        </div>
       </section>
 
 
       <section className="education">
-        <h4>Education</h4>
+        <h4 className="font-medium">Education</h4>
 
-        <div className="grid grid-cols-[80px_1fr_auto]">
+        <div className="grid grid-cols-[80px_200px_1fr]">
           <span>2024</span>
           <span>ETH Zürich</span>
           <span>BSc in Computer Science</span>
+          <a href="YOUR_LINK">
+            <Phosphor.Link size={14} />
+          </a>
         </div>
 
-        <div className="grid grid-cols-[80px_1fr_auto]">
+        <div className="grid grid-cols-[80px_200px_1fr]">
           <span>2027</span>
           <span>LTH</span>
           <span>Exchange Semester</span>
         </div>
 
-        <div className="grid grid-cols-[80px_1fr_auto]">
+        <div className="grid grid-cols-[80px_200px_1fr]">
           <span>2018</span>
           <span>KSZ</span>
           <span>Swiss Matura</span>
         </div>
 
-        <div className="grid grid-cols-[80px_1fr_auto]">
+        <div className="grid grid-cols-[80px_200px_1fr]">
           <span>2020</span>
           <span>I.E.S Victoria Kent</span>
           <span>Study Year Abroad</span>

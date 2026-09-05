@@ -67,6 +67,11 @@ span {
   font-size: 14px;
 }
 
+.page-title{
+  color: black;
+  font-weight: 700;
+}
+
 .plus-button {
   position: fixed;
   right: 20px;

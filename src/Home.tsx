@@ -18,7 +18,10 @@ function Home() {
 
             <section>
                 <div className="flex w-full items-center justify-between">
-                    <h1 className="text-black font-bold">Filippa Emelie Matilda Steiner</h1>
+                    <h1 className="page-title">
+                        Filippa Emelie Matilda Steiner
+                    </h1>
+                    
                     <LanguageSelector
                         language={language}
                         setLanguage={setLanguage}

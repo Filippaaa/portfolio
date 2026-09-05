@@ -3,13 +3,16 @@ import * as Phosphor from '@phosphor-icons/react'
 import portrait from './assets/portrait.jpg'
 import { useState } from 'react'
 import LanguageSelector from './components/LanguageSelector'
+import BuildInfo from './components/PlusInfo.tsx'
 
 function App() {
 
   const [darkMode, setDarkMode] = useState(false)
   const [language, setLanguage] = useState<'en' | 'de' | 'sv'>('en')
+  const [buildInfoOpen, setBuildInfoOpen] = useState(false)
+
   return (
-    <main className={darkMode ? 'dark' : ''}>
+   <main className={`${darkMode ? 'dark' : ''} mt-[100px] mb-5`}>
 
       <label className="theme-toggle">
         <input
@@ -20,7 +23,7 @@ function App() {
         <span className="slider"></span>
       </label>
 
-      <section className="hero">
+      <section>
         <div className="flex w-full items-center justify-between">
           <h1>Filippa Emelie Matilda Steiner</h1>
           <LanguageSelector
@@ -110,36 +113,37 @@ function App() {
       <section className="education">
         <h4>Education</h4>
 
-        <div className="education-row">
-          <span>2024-2028</span>
+        <div className="grid grid-cols-[80px_1fr_auto]">
+          <span>2024</span>
           <span>ETH Zürich</span>
           <span>BSc in Computer Science</span>
         </div>
 
-        <div className="education-row">
-          <span>2027-2027</span>
+        <div className="grid grid-cols-[80px_1fr_auto]">
+          <span>2027</span>
           <span>LTH</span>
           <span>Exchange Semester</span>
         </div>
 
-        <div className="education-row">
-          <span>2018-2024</span>
+        <div className="grid grid-cols-[80px_1fr_auto]">
+          <span>2018</span>
           <span>KSZ</span>
           <span>Swiss Matura</span>
         </div>
 
-        <div className="education-row">
-          <span>2020-2021</span>
+        <div className="grid grid-cols-[80px_1fr_auto]">
+          <span>2020</span>
           <span>I.E.S Victoria Kent</span>
           <span>Study Year Abroad</span>
         </div>
       </section>
 
-      <img className="portrait" src={portrait} alt="Filippa Steiner" />
+      <img className="portrait mt-6" src={portrait} alt="Filippa Steiner" />
 
-      <div className="plus-button">
-        <Phosphor.Plus size={16} />
-      </div>
+      <BuildInfo
+        open={buildInfoOpen}
+        setOpen={setBuildInfoOpen}
+      />
     </main>
   )
 }

@@ -1,4 +1,5 @@
 import './App.css'
+import * as Phosphor from '@phosphor-icons/react'
 
 function App() {
   return (
@@ -20,19 +21,19 @@ function App() {
           
           <span>2025</span>
           <span>fastily</span>
-          <span>Icon</span>
+          <Phosphor.Link size={24} />
 
           <span>2025</span>
           <span>exercly</span>
-          <span>Icon</span>
+          <Phosphor.Link size={24} />
 
           <span>2023</span>
           <span>foodilicous</span>
-          <span>Icon</span>
+          <Phosphor.Link size={24} />
 
           <span>2023</span>
           <span>Verbb</span>
-          <span>Icon</span>
+          <Phosphor.Link size={24} />
         </div>
 
       </section>

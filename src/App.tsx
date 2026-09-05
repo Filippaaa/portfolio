@@ -41,17 +41,23 @@ function App() {
 
         </p>
 
-        <div>
-          <span className="underline">LinkedIn</span>
-          <span> • </span>
-          <span className="underline">GitHub</span>
-        </div>
-
         <p>
-          You can reach me via
+          You can reach me via{' '}
           <span className="underline">filippa@filippasteiner.com</span>
         </p>
+
+
+        <div>
+          <span>
+            Elsewhere{' '}
+          </span>
+          <span className="underline">LinkedIn</span>
+          <span>, </span>
+          <span className="underline">GitHub</span>
+        </div>
       </section>
+
+
 
       <section>
         <h4>Projects</h4>

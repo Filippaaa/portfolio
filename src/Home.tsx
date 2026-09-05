@@ -66,26 +66,33 @@ function Home() {
                         <SquareArrowOutUpRight size={14} strokeWidth={1.5} />
                     </Link>
 
-                    <div className="grid grid-cols-[80px_200px_1fr_auto]">
+                    <Link
+                    to="/exercly"
+                    className="grid grid-cols-[80px_200px_1fr_auto]"
+                    >
                         <span>2025</span>
                         <span className="text-black">exercly</span>
                         <span className="text-black">Web App</span>
                         <SquareArrowOutUpRight size={14} strokeWidth={1.5} />
-                    </div>
+                    </Link>
 
-                    <div className="grid grid-cols-[80px_200px_1fr_auto]">
+                    <Link 
+                    to="/foodilicous"
+                    className="grid grid-cols-[80px_200px_1fr_auto]">
                         <span>2023</span>
                         <span className="text-black">foodilicous</span>
                         <span className="text-black">iOS App</span>
                         <SquareArrowOutUpRight size={14} strokeWidth={1.5} />
-                    </div>
+                    </Link>
 
-                    <div className="grid grid-cols-[80px_200px_1fr_auto]">
+                    <Link
+                    to="/Verbb"
+                    className="grid grid-cols-[80px_200px_1fr_auto]">
                         <span>2023</span>
                         <span className="text-black">Verbb</span>
                         <span className="text-black">iOS App</span>
                         <SquareArrowOutUpRight size={14} strokeWidth={1.5} />
-                    </div>
+                    </Link>
                 </div>
             </section>
 

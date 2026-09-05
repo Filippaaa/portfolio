@@ -1,5 +1,6 @@
 import './App.css'
 import * as Phosphor from '@phosphor-icons/react'
+import portrait from './assets/portrait.jpg'
 
 function App() {
   return (
@@ -99,6 +100,8 @@ function App() {
           <span>Study Year Abroad</span>
         </div>
       </section>
+
+      <img className="portrait" src={portrait} alt="Filippa Steiner"/>
 
       <div className="plus-button">
         <Phosphor.Plus size={16} />

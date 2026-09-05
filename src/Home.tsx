@@ -15,6 +15,7 @@ function Home() {
 
     return (
         <main className={`${darkMode ? 'dark' : ''} mt-[100px] mb-5`}>
+
             <section>
                 <div className="flex w-full items-center justify-between">
                     <h1>Filippa Emelie Matilda Steiner</h1>
@@ -23,33 +24,58 @@ function Home() {
                         setLanguage={setLanguage}
                     />
                 </div>
-                <p>Last updated: September 5, 2026</p>
+                <p className="my-0">Zurich, Switzerland</p>
+                <p className="-mt-1">Last updated: September 5, 2026</p>
             </section>
-            <section>
 
-                <p className="my-[10px] text-black">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae justo nec lorem tincidunt efficitur. Vivamus euismod, nisl vel tincidunt tincidunt, nibh erat feugiat ipsum, vitae fermentum mi urna at lectus.
-
-                    Praesent euismod, sapien non facilisis consequat, justo augue tincidunt libero, vitae consequat nisl lorem sed neque. Curabitur ullamcorper, lacus at tincidunt malesuada, erat lorem commodo arcu, at interdum sapien justo non erat.
-
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
-
+            <section className="mt-2 mb-0">
+                <p className="m-0 text-black leading-snug">
+                    I am currently pursuing my Bachelor’s in Computer Science at ETH Zürich.
                 </p>
 
-                <p className="text-black">
+                <p className="m-0 text-black leading-snug">
+                    I’m interested in both technology and research. I love working on anything that seems meaningful, interesting, or exciting.
+                </p>
+
+                <p className="m-0 text-black leading-snug">
+                    I'm fond of driven people who have a vision for what they want to create.
+                </p>
+            </section>
+
+            <section className="mt-4">
+                <p className="m-0 leading-tight text-black">
                     You can reach me via{' '}
-                    <span className="underline text-black">filippa@filippasteiner.com</span>
-                </p>
+                    <a 
+                    href="mailto: filippa@filippasteiner.com"
+                    className="underline text-black"
+                    >
+                        filippa@filippasteiner.com
+                    </a>
 
+                    <span className="text-black">, or elsewhere: </span>
+                    
+                    <a 
+                    href="https://www.linkedin.com/in/filippasteiner"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline text-black"
+                    >
+                        LinkedIn
+                    </a>
 
-                <div>
-                    <span className="text-black">
-                        Elsewhere{' '}
-                    </span>
-                    <span className="underline text-black">LinkedIn</span>
                     <span>, </span>
-                    <span className="underline text-black">GitHub</span>
-                </div>
+
+                    <a 
+                    href="https://github.com/Filippaaa.git"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline text-black"
+                    >
+                        GitHub
+                    </a>
+
+                    <span className="text-black">.</span>
+                </p>
             </section>
 
             <section>
@@ -67,8 +93,8 @@ function Home() {
                     </Link>
 
                     <Link
-                    to="/exercly"
-                    className="grid grid-cols-[80px_200px_1fr_auto]"
+                        to="/exercly"
+                        className="grid grid-cols-[80px_200px_1fr_auto]"
                     >
                         <span>2025</span>
                         <span className="text-black">exercly</span>
@@ -76,9 +102,9 @@ function Home() {
                         <SquareArrowOutUpRight size={14} strokeWidth={1.5} />
                     </Link>
 
-                    <Link 
-                    to="/foodilicous"
-                    className="grid grid-cols-[80px_200px_1fr_auto]">
+                    <Link
+                        to="/foodilicous"
+                        className="grid grid-cols-[80px_200px_1fr_auto]">
                         <span>2023</span>
                         <span className="text-black">foodilicous</span>
                         <span className="text-black">iOS App</span>
@@ -86,8 +112,8 @@ function Home() {
                     </Link>
 
                     <Link
-                    to="/Verbb"
-                    className="grid grid-cols-[80px_200px_1fr_auto]">
+                        to="/Verbb"
+                        className="grid grid-cols-[80px_200px_1fr_auto]">
                         <span>2023</span>
                         <span className="text-black">Verbb</span>
                         <span className="text-black">iOS App</span>

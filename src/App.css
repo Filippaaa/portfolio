@@ -17,6 +17,12 @@
   }
 }
 
+.plus-button{
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
 .projects-row {
   display: grid;
   grid-template-columns: 80px 1fr auto;

@@ -12,13 +12,22 @@ function App() {
       </section>
       <section>
 
-        <p>You can reach me via <span className="underline">LinkedIn</span></p>
+        <div>
+          <span className="underline">LinkedIn</span>
+          <span> • </span>
+          <span className="underline">GitHub</span>
+        </div>
+
+        <p>
+          You can reach me via
+          <span className="underline">filippa@filippasteiner.com</span>
+        </p>
       </section>
 
       <section>
         <h4>Projects</h4>
         <div className="projects-row">
-          
+
           <span>2025</span>
           <span>fastily</span>
           <Phosphor.Link size={24} />
@@ -90,6 +99,10 @@ function App() {
           <span>Study Year Abroad</span>
         </div>
       </section>
+
+      <div className="plus-button">
+        <Phosphor.Plus size={16} />
+      </div>
     </main>
   )
 }

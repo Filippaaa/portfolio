@@ -36,7 +36,7 @@ function App() {
       </section>
       <section>
 
-        <p className="my-[10px]">
+        <p className="my-[10px] text-black">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae justo nec lorem tincidunt efficitur. Vivamus euismod, nisl vel tincidunt tincidunt, nibh erat feugiat ipsum, vitae fermentum mi urna at lectus.
 
           Praesent euismod, sapien non facilisis consequat, justo augue tincidunt libero, vitae consequat nisl lorem sed neque. Curabitur ullamcorper, lacus at tincidunt malesuada, erat lorem commodo arcu, at interdum sapien justo non erat.
@@ -45,66 +45,66 @@ function App() {
 
         </p>
 
-        <p>
+        <p className="text-black">
           You can reach me via{' '}
-          <span className="underline">filippa@filippasteiner.com</span>
+          <span className="underline text-black">filippa@filippasteiner.com</span>
         </p>
 
 
         <div>
-          <span>
+          <span className="text-black">
             Elsewhere{' '}
           </span>
-          <span className="underline">LinkedIn</span>
+          <span className="underline text-black">LinkedIn</span>
           <span>, </span>
-          <span className="underline">GitHub</span>
+          <span className="underline text-black">GitHub</span>
         </div>
       </section>
 
 
 
       <section>
-        <h4 className="font-medium">Projects</h4>
+        <h4 className="font-semibold">Projects</h4>
         
         <div>
           <div className="grid grid-cols-[80px_200px_1fr_auto]">
             <span>2025</span>
-            <span>fastily</span>
-            <span>iOS App</span>
+            <span class="text-black">fastily</span>
+            <span className="text-black">iOS App</span>
             <Phosphor.Link size={14} />
           </div>
 
           <div className="grid grid-cols-[80px_200px_1fr_auto]">
             <span>2025</span>
-            <span>exercly</span>
-             <span>Web App</span>
+            <span class="text-black">exercly</span>
+             <span className="text-black">Web App</span>
             <Phosphor.Link size={14} />
           </div>
 
           <div className="grid grid-cols-[80px_200px_1fr_auto]">
             <span>2023</span>
-            <span>foodilicous</span>
-             <span>iOS App</span>
+            <span class="text-black">foodilicous</span>
+             <span className="text-black">iOS App</span>
             <Phosphor.Link size={14} />
           </div>
 
           <div className="grid grid-cols-[80px_200px_1fr_auto]">
             <span>2023</span>
-            <span>Verbb</span>
-            <span>iOS App</span>
+            <span class="text-black">Verbb</span>
+            <span className="text-black">iOS App</span>
             <Phosphor.Link size={14} />
           </div>
         </div>
       </section>
 
       <section>
-        <h4 className="font-medium">Student Associations</h4>
+        <h4 className="font-semibold">Student Associations</h4>
 
 
         <div className="grid grid-cols-[80px_200px_1fr_auto]">
           <span>2026</span>
-          <span>ETH Entrepreneur Club</span>
-          <span>Incoming Member</span>
+          <span className="text-black">ETH Entrepreneur Club</span>
+          <span className="text-black">Incoming Member</span>
           <a
             href="https://www.entrepreneur-club.org/"
             target="_blank"
@@ -117,8 +117,8 @@ function App() {
 
         <div className="grid grid-cols-[80px_200px_1fr_auto]">
           <span>2026</span>
-          <span>NSVZ</span>
-          <span>Founder</span>
+          <span className="text-black">NSVZ</span>
+          <span className="text-black">Founder</span>
           <a
             href="https://nsvz.ch/"
             target="_blank"
@@ -131,8 +131,8 @@ function App() {
 
         <div className="grid grid-cols-[80px_200px_1fr_auto]">
           <span>2026</span>
-          <span>ESN</span>
-          <span>Member of the Finance Committee</span>
+          <span className="text-black">ESN</span>
+          <span className="text-black">Member of the Finance Committee</span>
           <a
             href="https://zurich.esn.ch/w/team"
             target="_blank"
@@ -145,12 +145,12 @@ function App() {
 
 
       <section>
-        <h4 className="font-medium">Education</h4>
+        <h4 className="font-semibold">Education</h4>
 
         <div className="grid grid-cols-[80px_200px_1fr_auto]">
           <span>2024</span>
-          <span>ETH Zürich</span>
-          <span>BSc in Computer Science</span>
+          <span className="text-black">ETH Zürich</span>
+          <span className="text-black">BSc in Computer Science</span>
           <a
             href="https://ethz.ch/en.html"
             target="_blank"
@@ -162,8 +162,8 @@ function App() {
 
         <div className="grid grid-cols-[80px_200px_1fr_auto]">
           <span>2027</span>
-          <span>LTH</span>
-          <span>Exchange Semester</span>
+          <span className="text-black">LTH</span>
+          <span className="text-black">Exchange Semester</span>
           <a
             href="https://www.lth.se/"
             target="_blank"
@@ -175,8 +175,8 @@ function App() {
 
         <div className="grid grid-cols-[80px_200px_1fr_auto]">
           <span>2018</span>
-          <span>KSZ</span>
-          <span>Swiss Matura</span>
+          <span className="text-black">KSZ</span>
+          <span className="text-black">Swiss Matura</span>
           <a
             href="https://ksz.ch/de"
             target="_blank"
@@ -188,8 +188,8 @@ function App() {
 
         <div className="grid grid-cols-[80px_200px_1fr_auto]">
           <span>2020</span>
-          <span>I.E.S Victoria Kent</span>
-          <span>Study Year Abroad</span>
+          <span className="text-black">I.E.S Victoria Kent</span>
+          <span className="text-black">Study Year Abroad</span>
           <a
             href="https://www.iesvictoriakentmarbella.es/"
             target="_blank"

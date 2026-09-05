@@ -2,11 +2,12 @@ import './App.css'
 import * as Phosphor from '@phosphor-icons/react'
 import portrait from './assets/portrait.jpg'
 import { useState } from 'react'
+import LanguageSelector from './components/LanguageSelector'
 
 function App() {
 
-  const[darkMode, setDarkMode] = useState(false)
-
+  const [darkMode, setDarkMode] = useState(false)
+  const [language, setLanguage] = useState<'en' | 'de' | 'sv'>('en')
   return (
     <main className={darkMode ? 'dark' : ''}>
 
@@ -20,10 +21,14 @@ function App() {
       </label>
 
       <section className="hero">
-        <h1>Filippa Emelie Matilda Steiner</h1>
+        <div className="flex w-full items-center justify-between">
+          <h1>Filippa Emelie Matilda Steiner</h1>
+          <LanguageSelector
+            language={language}
+            setLanguage={setLanguage}
+          />
+        </div>
         <p>Last updated: September 5, 2026</p>
-
-
       </section>
       <section>
 
@@ -115,7 +120,7 @@ function App() {
         </div>
       </section>
 
-      <img className="portrait" src={portrait} alt="Filippa Steiner"/>
+      <img className="portrait" src={portrait} alt="Filippa Steiner" />
 
       <div className="plus-button">
         <Phosphor.Plus size={16} />

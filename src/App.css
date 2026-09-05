@@ -17,19 +17,47 @@
   }
 }
 
+.underline {
+  text-decoration: underline;
+}
+
+.education {
+
+}
+
+h1 {
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+h4 {
+  color: black;
+  font-size: 16;
+}
+
+.education-row{
+  display: grid;
+  grid-template-columns: 200px 1fr;
+
+}
+
+.student-associations-row{
+  display: grid;
+  grid-template-columns: 80px 1fr auto;
+}
+
+.student-associations-row span:last-child {
+  justify-self: end;
+}
+
 .hero {
   text-align: left;
   padding-top: 40px;
-  min-height: 100svh;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   border: 2px solid red;
-
-  h1 {
-    font-size: 30px;
-    font-weight: 700;
-  }
 
   p{
     font-size: 18px;

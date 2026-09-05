@@ -17,6 +17,16 @@
   }
 }
 
+.projects-row {
+  display: grid;
+  grid-template-columns: 80px 1fr auto;
+}
+
+.projects-row span:last-child {
+  justify-self: end;
+}
+
+
 .underline {
   text-decoration: underline;
 }

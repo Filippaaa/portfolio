@@ -16,6 +16,24 @@ function App() {
 
       <section>
         <h4>Projects</h4>
+        <div className="projects-row">
+          
+          <span>2025</span>
+          <span>fastily</span>
+          <span>Icon</span>
+
+          <span>2025</span>
+          <span>exercly</span>
+          <span>Icon</span>
+
+          <span>2023</span>
+          <span>foodilicous</span>
+          <span>Icon</span>
+
+          <span>2023</span>
+          <span>Verbb</span>
+          <span>Icon</span>
+        </div>
 
       </section>
 

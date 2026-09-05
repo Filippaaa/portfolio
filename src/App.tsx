@@ -93,7 +93,11 @@ function App() {
           <span>2026</span>
           <span>ETH Entrepreneur Club</span>
           <span>Incoming Member</span>
-          <a href="https://www.entrepreneur-club.org/">
+          <a 
+          href="https://www.entrepreneur-club.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >
             <Phosphor.Link size={14} />
           </a>
         </div>
@@ -103,7 +107,11 @@ function App() {
           <span>2026</span>
           <span>NSVZ</span>
           <span>Founder</span>
-          <a href="https://nsvz.ch/">
+          <a 
+          href="https://nsvz.ch/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >
             <Phosphor.Link size={14} />
           </a>
         </div>
@@ -113,7 +121,11 @@ function App() {
           <span>2026</span>
           <span>ESN</span>
           <span>Member of the Finance Committee</span>
-          <a href="https://zurich.esn.ch/w/team">
+          <a 
+          href="https://zurich.esn.ch/w/team"
+          target="_blank"
+          rel="noopener noreferrer"
+          >
             <Phosphor.Link size={14} />
           </a>
         </div>
@@ -123,31 +135,56 @@ function App() {
       <section className="education">
         <h4 className="font-medium">Education</h4>
 
-        <div className="grid grid-cols-[80px_200px_1fr]">
+        <div className="grid grid-cols-[80px_200px_1fr_auto]">
           <span>2024</span>
           <span>ETH Zürich</span>
           <span>BSc in Computer Science</span>
-          <a href="YOUR_LINK">
+          <a 
+          href="https://ethz.ch/en.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          >
             <Phosphor.Link size={14} />
           </a>
         </div>
 
-        <div className="grid grid-cols-[80px_200px_1fr]">
+        <div className="grid grid-cols-[80px_200px_1fr_auto]">
           <span>2027</span>
           <span>LTH</span>
           <span>Exchange Semester</span>
+          <a 
+          href="https://www.lth.se/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >
+            <Phosphor.Link size={14} />
+          </a>
         </div>
 
-        <div className="grid grid-cols-[80px_200px_1fr]">
+        <div className="grid grid-cols-[80px_200px_1fr_auto]">
           <span>2018</span>
           <span>KSZ</span>
           <span>Swiss Matura</span>
+          <a 
+          href="https://ksz.ch/de"
+          target="_blank"
+          rel="noopener noreferrer"
+          >
+            <Phosphor.Link size={14} />
+          </a>
         </div>
 
-        <div className="grid grid-cols-[80px_200px_1fr]">
+        <div className="grid grid-cols-[80px_200px_1fr_auto]">
           <span>2020</span>
           <span>I.E.S Victoria Kent</span>
           <span>Study Year Abroad</span>
+          <a 
+          href="https://www.iesvictoriakentmarbella.es/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >
+            <Phosphor.Link size={14} />
+          </a>
         </div>
       </section>
 

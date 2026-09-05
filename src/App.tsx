@@ -66,21 +66,25 @@ function App() {
         <h4>Education</h4>
 
         <div className="education-row">
+          <span>2024-2028</span>
           <span>ETH Zürich</span>
           <span>BSc in Computer Science</span>
         </div>
 
         <div className="education-row">
+          <span>2027-2027</span>
           <span>LTH</span>
           <span>Exchange Semester</span>
         </div>
 
         <div className="education-row">
+          <span>2018-2024</span>
           <span>KSZ</span>
           <span>Swiss Matura</span>
         </div>
 
         <div className="education-row">
+          <span>2020-2021</span>
           <span>I.E.S Victoria Kent</span>
           <span>Study Year Abroad</span>
         </div>

@@ -1,32 +1,22 @@
 import './App.css'
 import portrait from './assets/portrait.jpg'
 import { useState } from 'react'
-import LanguageSelector from './components/LanguageSelector'
 import BuildInfo from './components/PlusInfo.tsx'
 import { SquareArrowOutUpRight } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { LinkSimple } from "@phosphor-icons/react";
 
 function Home() {
-    const [darkMode, setDarkMode] = useState(false)
-    const [language, setLanguage] = useState<'en' | 'de' | 'sv'>('en')
     const [buildInfoOpen, setBuildInfoOpen] = useState(false)
 
     return (
-        <main className={`${darkMode ? 'dark' : ''} mt-[100px] mb-5`}>
+        <main className="mt-[100px] mb-5">
 
             <section>
                 <div className="flex w-full items-center justify-between">
                     <h1 className="page-title">
                         Filippa Emelie Matilda Steiner
                     </h1>
-
-                    {/*
-                    <LanguageSelector
-                        language={language}
-                        setLanguage={setLanguage}
-                    />
-                     */}
                 </div>
 
                 <p className="my-0">Zurich, Switzerland</p>

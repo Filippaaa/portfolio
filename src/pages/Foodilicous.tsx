@@ -1,7 +1,13 @@
 import { ArrowLeft } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
-import imageLogo from '../assets/foodilicous/Logo.png'
+import Logo from '../assets/foodilicous/Logo.png'
+import Explore from '../assets/foodilicous/Explore.jpg'
+import Collections from '../assets/foodilicous/Collections.jpg'
+import Porridge from '../assets/foodilicous/Porridge.jpg'
+import Profile from '../assets/foodilicous/Profile.jpg'
+import Upload from '../assets/foodilicous/Upload.jpg'
+import Breakfasts from '../assets/foodilicous/Breakfasts.jpg'
 
 function Foodilicous() {
     return (
@@ -34,12 +40,14 @@ function Foodilicous() {
                 </div>
             </section>
 
-            <p className="text-justify text-black my-2">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas laoreet diam semper tempor tincidunt. Proin ligula odio, congue a eros id, laoreet viverra mauris. Nullam sed elit eu orci euismod semper at at erat. Aliquam at sem urna. Fusce maximus scelerisque augue, a dignissim sapien varius sit amet. Donec gravida metus ac mollis cursus. Pellentesque molestie, mauris at mattis interdum, lectus metus accumsan sapien, sed fringilla leo lorem sed ex. Ut quis placerat dolor. Phasellus nec nisl sed lectus hendrerit malesuada.
-            </p>
-
             <div className="columns-2 gap-4 my-4">
-                <img className="mb-4 border border-gray-200 w-full" src={imageLogo} alt="fastily" />
+                <img className="mb-4 border border-gray-200 w-full" src={Logo} alt="fastily" />
+                <img className="mb-4 border border-gray-200 w-full" src={Explore} alt="fastily" />
+                 <img className="mb-4 border border-gray-200 w-full" src={Collections} alt="fastily" />
+                  <img className="mb-4 border border-gray-200 w-full" src={Breakfasts} alt="fastily" />
+                  <img className="mb-4 border border-gray-200 w-full" src={Porridge} alt="fastily" />
+                  <img className="mb-4 border border-gray-200 w-full" src={Upload} alt="fastily" />
+                  <img className="mb-4 border border-gray-200 w-full" src={Profile} alt="fastily" />
             </div>
         </div>
     )

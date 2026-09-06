@@ -21,10 +21,12 @@ function Home() {
                         Filippa Emelie Matilda Steiner
                     </h1>
 
+                    {/*
                     <LanguageSelector
                         language={language}
                         setLanguage={setLanguage}
                     />
+                     */}
                 </div>
 
                 <p className="my-0">Zurich, Switzerland</p>

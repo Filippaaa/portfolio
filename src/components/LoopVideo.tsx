@@ -31,7 +31,7 @@ function LoopVideo({ src }: LoopVideoProps) {
                 muted
                 playsInline
                 onClick={toggleVideo}
-                className="w-full cursor-pointer"
+                className="w-full cursor-pointer mb-4 border border-gray-100"
             />
 
             {isPaused && (

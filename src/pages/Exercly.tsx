@@ -2,6 +2,8 @@ import { ArrowLeft } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import imageExercise1 from '../assets/exercly/Exercise1.png'
 import imageExercise2 from '../assets/exercly/Exercise2.png'
+import trueFalse from '../assets/exercly/TrueFalseExercise.png'
+import linearAlgebra from '../assets/exercly/LinearAlgebra.png'
 import imageTags from '../assets/exercly/Tags.png'
 
 
@@ -21,7 +23,7 @@ function Fastily() {
                 <div className="flex gap-1">
                     <h5 className="m-0 text-black font-semibold text-[14px]">About:</h5>
                     <p className="m-0 text-black">
-                         
+                        An exercise-sharing platform for practicing and reviewing community-contributed exercises.
                     </p>
                 </div>
 
@@ -44,7 +46,9 @@ function Fastily() {
 
             <div className="columns-1 gap-4 my-4">
                 <img className="mb-4 border border-gray-200 w-full" src={imageTags} alt="fastily" />
+                <img className="mb-4 border border-gray-200 w-full" src={linearAlgebra} alt="fastily" />
                 <img className="mb-4 border border-gray-200 w-full" src={imageExercise1} alt="fastily" />
+                <img className="mb-4 border border-gray-200 w-full" src={trueFalse} alt="fastily" />
                 <img className="mb-4 border border-gray-200 w-full" src={imageExercise2} alt="fastily" />
             </div>
         </div>

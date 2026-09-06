@@ -37,9 +37,11 @@ function Verbb() {
                 </div>
             </section>
 
+            {/*
             <p className="text-justify text-black my-2">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas laoreet diam semper tempor tincidunt. Proin ligula odio, congue a eros id, laoreet viverra mauris. Nullam sed elit eu orci euismod semper at at erat. Aliquam at sem urna. Fusce maximus scelerisque augue, a dignissim sapien varius sit amet. Donec gravida metus ac mollis cursus. Pellentesque molestie, mauris at mattis interdum, lectus metus accumsan sapien, sed fringilla leo lorem sed ex. Ut quis placerat dolor. Phasellus nec nisl sed lectus hendrerit malesuada.
             </p>
+            */}
 
             <div className="columns-2 gap-4 my-4">
                  <img className="mb-4 border border-gray-200 w-full" src={logo} alt="Verbb" />

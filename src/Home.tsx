@@ -5,6 +5,7 @@ import LanguageSelector from './components/LanguageSelector'
 import BuildInfo from './components/PlusInfo.tsx'
 import { SquareArrowOutUpRight } from 'lucide-react'
 import { Link } from 'react-router-dom'
+import { LinkSimple } from "@phosphor-icons/react";
 
 function Home() {
     const [darkMode, setDarkMode] = useState(false)
@@ -91,7 +92,7 @@ function Home() {
                         <span>2025</span>
                         <span>fastily</span>
                         <span>iOS App</span>
-                        <SquareArrowOutUpRight size={14} strokeWidth={1.5} />
+                       <LinkSimple size={14} weight="regular" />
                     </Link>
 
                     <Link
@@ -101,7 +102,7 @@ function Home() {
                         <span>2025</span>
                         <span>exercly</span>
                         <span>Web App</span>
-                        <SquareArrowOutUpRight size={14} strokeWidth={1.5} />
+                       <LinkSimple size={14} weight="regular" />
                     </Link>
 
                     <Link
@@ -111,7 +112,7 @@ function Home() {
                         <span>2023</span>
                         <span>foodilicous</span>
                         <span>iOS App</span>
-                        <SquareArrowOutUpRight size={14} strokeWidth={1.5} />
+                       <LinkSimple size={14} weight="regular" />
                     </Link>
 
                     <Link
@@ -121,7 +122,7 @@ function Home() {
                         <span>2023</span>
                         <span>Verbb</span>
                         <span>iOS App</span>
-                        <SquareArrowOutUpRight size={14} strokeWidth={1.5} />
+                        <LinkSimple size={14} weight="regular" />
                     </Link>
                 </div>
             </section>

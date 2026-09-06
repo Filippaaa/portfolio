@@ -1,8 +1,9 @@
 import { ArrowLeft } from 'lucide-react'
 import { Link } from 'react-router-dom'
-
-import image1 from '../assets/portrait.jpg'
-import image2 from '../assets/fastily/Logo.png'
+import LoopVideo from '../components/LoopVideo'
+import image1 from '../assets/fastily/Logo.png'
+import video1 from '../assets/fastily/Video_1.mov'
+import video2 from '../assets/fastily/Video_2.mov'
 
 function Fastily() {
     return (
@@ -41,9 +42,8 @@ function Fastily() {
 
             <div className="columns-2 gap-4 my-4">
                 <img className="mb-4 w-full" src={image1} alt="fastily" />
-                <img className="mb-4 w-full" src={image2} alt="fastily" />
-                <img className="mb-4 w-full" src={image1} alt="fastily" />
-                <img className="mb-4 w-full" src={image1} alt="fastily" />
+                <LoopVideo src={video1} />
+                <LoopVideo src={video2} />
             </div>
         </div>
     )

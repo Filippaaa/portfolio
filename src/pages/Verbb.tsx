@@ -1,8 +1,10 @@
 import { ArrowLeft } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
-import image1 from '../assets/portrait.jpg'
-import image2 from '../assets/fastily/Logo.png'
+import logo from '../assets/Verbb/Logo.png'
+import image1 from '../assets/Verbb/Image1.jpg'
+import image2 from '../assets/Verbb/Image2.jpg'
+import image3 from '../assets/Verbb/Image3.jpg'
 
 function Verbb() {
     return (
@@ -20,7 +22,7 @@ function Verbb() {
                 <div className="flex gap-1">
                     <h5 className="m-0 text-black font-semibold text-[14px]">About:</h5>
                     <p className="m-0 text-black">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas.
+                        An iOS app for learning Spanish verbs and practicing their conjugation.
                     </p>
                 </div>
 
@@ -31,7 +33,7 @@ function Verbb() {
 
                 <div className="flex gap-1">
                     <h5 className="m-0 text-black font-semibold text-[14px]">Timeline:</h5>
-                    <p className="m-0 text-black">2025–Present</p>
+                    <p className="m-0 text-black">2023–2024</p>
                 </div>
             </section>
 
@@ -40,10 +42,10 @@ function Verbb() {
             </p>
 
             <div className="columns-2 gap-4 my-4">
-                <img className="mb-4 w-full" src={image1} alt="fastily" />
-                <img className="mb-4 w-full" src={image2} alt="fastily" />
-                <img className="mb-4 w-full" src={image1} alt="fastily" />
-                <img className="mb-4 w-full" src={image1} alt="fastily" />
+                 <img className="mb-4 border border-gray-200 w-full" src={logo} alt="Verbb" />
+                <img className="mb-4 border border-gray-200 w-full" src={image1} alt="Verbb" />
+                <img className="mb-4 border border-gray-200 w-full" src={image2} alt="Verbb" />
+                <img className="mb-4 border border-gray-200 w-full" src={image3} alt="Verbb" />
             </div>
         </div>
     )

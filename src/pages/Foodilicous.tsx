@@ -1,8 +1,7 @@
 import { ArrowLeft } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
-import image1 from '../assets/portrait.jpg'
-import image2 from '../assets/fastily/Logo.png'
+import imageLogo from '../assets/foodilicous/Logo.png'
 
 function Foodilicous() {
     return (
@@ -20,7 +19,7 @@ function Foodilicous() {
                 <div className="flex gap-1">
                     <h5 className="m-0 text-black font-semibold text-[14px]">About:</h5>
                     <p className="m-0 text-black">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas.
+                        An iOS app for sharing, discovering and organizing recipes.
                     </p>
                 </div>
 
@@ -31,7 +30,7 @@ function Foodilicous() {
 
                 <div className="flex gap-1">
                     <h5 className="m-0 text-black font-semibold text-[14px]">Timeline:</h5>
-                    <p className="m-0 text-black">2025–Present</p>
+                    <p className="m-0 text-black">2023–Present</p>
                 </div>
             </section>
 
@@ -40,10 +39,7 @@ function Foodilicous() {
             </p>
 
             <div className="columns-2 gap-4 my-4">
-                <img className="mb-4 w-full" src={image1} alt="fastily" />
-                <img className="mb-4 w-full" src={image2} alt="fastily" />
-                <img className="mb-4 w-full" src={image1} alt="fastily" />
-                <img className="mb-4 w-full" src={image1} alt="fastily" />
+                <img className="mb-4 border border-gray-200 w-full" src={imageLogo} alt="fastily" />
             </div>
         </div>
     )
